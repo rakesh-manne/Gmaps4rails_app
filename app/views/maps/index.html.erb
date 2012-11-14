@@ -1,0 +1,9 @@
+<h1>Let's find Coffee Shops And Pizza Shops In your city.</h1>
+</br>
+<%= link_to 'New Coffeeshop', new_coffeeshop_path %> | 
+
+<%= link_to 'New Pizzashop', new_pizzashop_path %>
+
+<div class="mapbox">
+	<%= gmaps4rails(@json.to_json) %>
+</div>	

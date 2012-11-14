@@ -1,0 +1,2 @@
+module PizzashopsHelper
+end
